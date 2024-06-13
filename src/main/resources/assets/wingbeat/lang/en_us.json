@@ -8,6 +8,8 @@
   "wingbeat.commands.ide.save.failed": "Unable to save project",
   "wingbeat.commands.ide.close.force_save_failed": "Save failed: %s",
   "wingbeat.commands.ide.close.success": "Project closed",
+  "wingbeat.commands.registry.list.begin": "List of known registries:",
+  "wingbeat.commands.registry.list.end": "Page %1$s of %2$s",
   "wingbeat.client.toast.project_save_failed.title": "Unable to save project %s",
   "wingbeat.client.toast.project_save_failed.message": "See log for details"
 }

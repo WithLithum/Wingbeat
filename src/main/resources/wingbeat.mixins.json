@@ -1,5 +1,7 @@
 {
-  "mixins": [],
+  "mixins": [
+    "ResourceKeyMixin"
+  ],
   "server": [
     "DedicatedWorldSaveMixin"
   ],

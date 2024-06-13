@@ -14,5 +14,6 @@ public final class WingbeatCommands {
                                        CommandBuildContext context,
                                        Commands.CommandSelection selection) {
         IdeCommand.register(dispatcher, context);
+        RegistryCommand.register(dispatcher);
     }
 }
