@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "wingbeat",
+  "version": "${version}",
+  "name": "Wingbeat",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/WithLithum/Wingbeat"
+  },
+  "license": "Apache-2.0",
+  "icon": "assets/wingbeat/icon.png",
+  "mixins": [
+    "wingbeat.mixins.json"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "x.withlithum.wingbeat.client.WingbeatClient"
+    ],
+    "main": [
+      "x.withlithum.wingbeat.Wingbeat"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

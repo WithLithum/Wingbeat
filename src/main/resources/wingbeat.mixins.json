@@ -1,0 +1,14 @@
+{
+  "mixins": [],
+  "server": [
+    "DedicatedWorldSaveMixin"
+  ],
+  "client": [
+    "IntegratedWorldSaveMixin"
+  ],
+  "package": "x.withlithum.wingbeat.mixins",
+  "required": true,
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

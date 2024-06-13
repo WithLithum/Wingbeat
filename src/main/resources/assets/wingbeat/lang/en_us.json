@@ -1,0 +1,13 @@
+{
+  "wingbeat.commands.ide.pack_not_exist":  "Pack '%s' does not exist",
+  "wingbeat.commands.ide.invalid_project": "Pack '%s' have a invalid format or is not a project",
+  "wingbeat.commands.ide.pack_exists": "Pack '%s' already exists",
+  "wingbeat.commands.ide.no_open_project": "No project is loaded",
+  "wingbeat.commands.ide.unable_to_parse_project": "Unable to parse project metadata",
+  "wingbeat.commands.ide.pack_unable_to_mkdir": "Unable to create pack directory '%s'",
+  "wingbeat.commands.ide.save.failed": "Unable to save project",
+  "wingbeat.commands.ide.close.force_save_failed": "Save failed: %s",
+  "wingbeat.commands.ide.close.success": "Project closed",
+  "wingbeat.client.toast.project_save_failed.title": "Unable to save project %s",
+  "wingbeat.client.toast.project_save_failed.message": "See log for details"
+}
